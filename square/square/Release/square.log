@@ -1,0 +1,24 @@
+﻿Build started 1/12/2016 7:40:28 PM.
+     1>Project "C:\Users\TheHollowManV\Documents\Visual Studio 2012\Projects\square\square\square.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\dev\glew-1.13.0\include" /IC:\dev\freeglut\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\square.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GUI.cpp
+         GUI.cpp
+     1>GUI.cpp(278): warning C4244: 'argument' : conversion from 'GLfloat' to 'GLsizei', possible loss of data
+     1>GUI.cpp(444): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>GUI.cpp(445): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>GUI.cpp(449): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>GUI.cpp(450): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\TheHollowManV\Documents\Visual Studio 2012\Projects\square\Release\square.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\dev\glew-1.13.0\lib\Release\Win32" /LIBPATH:C:\dev\freeglut\lib glew32.lib freeglut.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\TheHollowManV\Documents\Visual Studio 2012\Projects\square\Release\square.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\TheHollowManV\Documents\Visual Studio 2012\Projects\square\Release\square.lib" /MACHINE:X86 /SAFESEH Release\GUI.obj
+         Release\Paddle.obj
+         Release\Socket.obj
+         Release\square.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         square.vcxproj -> C:\Users\TheHollowManV\Documents\Visual Studio 2012\Projects\square\Release\square.exe
+     1>Done Building Project "C:\Users\TheHollowManV\Documents\Visual Studio 2012\Projects\square\square\square.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.38
