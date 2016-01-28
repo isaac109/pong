@@ -287,7 +287,7 @@ void GUI::initialize(int argc, char* argv[], bool p1)
 
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH);
 	glutInitWindowSize(800, 600);
-	glutCreateWindow("Move the Square!");
+	glutCreateWindow("Pong!");
 	glClearColor(1.0f,1.0f,1.0f,1.0f);
 	glutReshapeFunc(&GUI::changeViewport);
 	glutDisplayFunc(&GUI::render);
